@@ -31,3 +31,31 @@ This naming convention holds true for each of the other colors. For instance let
     &lt;p class="cyan-4-text"&gt;This is a sentence with cyan-4 text color.&lt;/p&gt;
   &lt;/div&gt;
 </code>
+
+## font-weights and styles
+
+font weights can be accessed in 300, 400, 500, 600, 700, and 800 with regular or italic text.
+
+To access a font-weight of 300 you would type the following class:
+
+fw-300
+
+If you wanted italic you would have the class:
+
+fw-300-italic
+
+Example code using font-weights and styling is:
+
+<code>
+  &lt;p class="fw-500-italic"&gt;This is 500 weight font that is italicized.&lt;/p&gt;
+</code>
+
+## Containers
+
+container classes are available with a max-width, centered via margin: 0 auto; from 200px to 1200px.
+
+If you wanted to have a 900px container the code would be:
+
+<code>
+  &lt;div class="container-900"&gt;This is a 900 px container that is centered&lt;/div&gt;
+</code>
