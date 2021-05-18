@@ -27,7 +27,7 @@ The other 7 variants contain numbers:
 This naming convention holds true for each of the other colors. For instance let's say you had a div with a black-3 background and a cyan-4 text in a paragraph. The code would be:
 
 <code>
-  <div class="black-3">
-    <p class="cyan-4-text">This is a sentence with cyan-4 text color.</p>
-  </div>
+  &lt;div class="black-3"&gt;
+    &lt;p class="cyan-4-text"&gt;This is a sentence with cyan-4 text color.&lt;/p&gt;
+  &lt;/div&gt;
 </code>
