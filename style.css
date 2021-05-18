@@ -47,4 +47,721 @@
   --yellow-5: rgb(235, 215, 0);
   --yellow-6: rgb(195, 215, 0);
   --yellow-7: rgb(215, 195, 0);
+  --cyan: cyan;
+  --cyan-1: rgb(0, 255, 235);
+  --cyan-2: rgb(0, 235, 255);
+  --cyan-3: rgb(0, 235, 235);
+  --cyan-4: rgb(0, 235, 215);
+  --cyan-5: rgb(0, 215, 235);
+  --cyan-6: rgb(0, 215, 215);
+  --cyan-7: rgb(0, 215, 195);
+  --white: white;
+  --white-1: rgb(235, 255, 255);
+  --white-2: rgb(255, 235, 255);
+  --white-3: rgb(255, 255, 235);
+  --white-4: rgb(235, 235, 255);
+  --white-5: rgb(235, 255, 235);
+  --white-6: rgb(255, 235, 235);
+  --white-7: rgb(235, 235, 235);
+  --black: black;
+  --black-1: rgb(0, 0, 20);
+  --black-2: rgb(0, 20, 0);
+  --black-3: rgb(20, 0, 0);
+  --black-4: rgb(20, 20, 0);
+  --black-5: rgb(20, 0, 20);
+  --black-6: rgb(0, 20, 20);
+  --black-7: rgb(20, 20, 20);
+  --orange: orange;
+  --orange-1: rgb(255, 145, 0);
+  --orange-2: rgb(255, 125, 0);
+  --orange-3: rgb(255, 105, 0);
+  --orange-4: rgb(255, 95, 0);
+  --orange-5: rgb(255, 75, 0);
+  --orange-6: rgb(255, 55, 0);
+  --orange-7: rgb(255, 35, 0);
+}
+
+/* ======== color classes ========== */
+
+/* ===== background colors ===== */
+
+/* blue colors */
+.blue {
+  background-color: var(--blue);
+}
+
+.blue-1 {
+  background-color: var(--blue-1);
+}
+
+.blue-2 {
+  background-color: var(--blue-2);
+}
+
+.blue-3 {
+  background-color: var(--blue-3);
+}
+
+.blue-4 {
+  background-color: var(--blue-4);
+}
+
+.blue-5 {
+  background-color: var(--blue-5);
+}
+
+.blue-6 {
+  background-color: var(--blue-6);
+}
+
+.blue-7 {
+  background-color: var(--blue-7);
+}
+
+/* green colors */
+.green {
+  background-color: var(--green);
+}
+
+.green-1 {
+  background-color: var(--green-1);
+}
+
+.green-2 {
+  background-color: var(--green-2);
+}
+
+.green-3 {
+  background-color: var(--green-3);
+}
+
+.green-4 {
+  background-color: var(--green-4);
+}
+
+.green-5 {
+  background-color: var(--green-5);
+}
+
+.green-6 {
+  background-color: var(--green-6);
+}
+
+.green-7 {
+  background-color: var(--green-7);
+}
+
+/* red colors */
+
+.red {
+  background-color: var(--red);
+}
+
+.red-1 {
+  background-color: var(--red-1);
+}
+
+.red-2 {
+  background-color: var(--red-2);
+}
+
+.red-3 {
+  background-color: var(--red-3);
+}
+
+.red-4 {
+  background-color: var(--red-4);
+}
+
+.red-5 {
+  background-color: var(--red-5);
+}
+
+.red-6 {
+  background-color: var(--red-6);
+}
+
+.red-7 {
+  background-color: var(--red-7);
+}
+
+/* pink colors */
+
+.pink{
+  background-color: var(--pink);
+}
+
+.pink-1 {
+  background-color: var(--pink-1);
+}
+
+.pink-2 {
+  background-color: var(--pink-2);
+}
+
+.pink-3 {
+  background-color: var(--pink-3);
+}
+
+.pink-4 {
+  background-color: var(--pink-4);
+}
+
+.pink-5 {
+  background-color: var(--pink-5);
+}
+
+.pink-6 {
+  background-color: var(--pink-6);
+}
+
+.pink-7 {
+  background-color: var(--pink-7);
+}
+
+/* purple colors */
+
+.purple {
+  background-color: var(--purple);
+}
+
+.purple-1 {
+  background-color: var(--purple-1);
+}
+
+.purple-2 {
+  background-color: var(--purple-2);
+}
+
+.purple-3 {
+  background-color: var(--purple-3);
+}
+
+.purple-4 {
+  background-color: var(--purple-4);
+}
+
+.purple-5 {
+  background-color: var(--purple-5);
+}
+
+.purple-6 {
+  background-color: var(--purple-6);
+}
+
+.purple-7 {
+  background-color: var(--purple-7);
+}
+
+/* yellow colors */
+
+.blue {
+  background-color: var(--blue);
+}
+
+.yellow-1 {
+  background-color: var(--yellow-1);
+}
+
+.yellow-2 {
+  background-color: var(--yellow-2);
+}
+
+.yellow-3 {
+  background-color: var(--yellow-3);
+}
+
+.yellow-4 {
+  background-color: var(--yellow-4);
+}
+
+.yellow-5 {
+  background-color: var(--yellow-5);
+}
+
+.yellow-6 {
+  background-color: var(--yellow-6);
+}
+
+.yellow-7 {
+  background-color: var(--yellow-7);
+}
+
+/* cyan colors */
+
+.cyan {
+  background-color: var(--cyan);
+}
+
+.cyan-1 {
+  background-color: var(--cyan-1);
+}
+
+.cyan-2 {
+  background-color: var(--cyan-2);
+}
+
+.cyan-3 {
+  background-color: var(--cyan-3);
+}
+
+.cyan-4 {
+  background-color: var(--cyan-4);
+}
+
+.cyan-5 {
+  background-color: var(--cyan-5);
+}
+
+.cyan-6 {
+  background-color: var(--cyan-6);
+}
+
+.cyan-7 {
+  background-color: var(--cyan-7);
+}
+
+/* white colors */
+
+.white {
+  background-color: var(--white);
+}
+
+.white-1 {
+  background-color: var(--white-1);
+}
+
+.white-2 {
+  background-color: var(--white-2);
+}
+
+.white-3 {
+  background-color: var(--white-3);
+}
+
+.white-4 {
+  background-color: var(--white-4);
+}
+
+.white-5 {
+  background-color: var(--white-5);
+}
+
+.white-6 {
+  background-color: var(--white-6);
+}
+
+.white-7 {
+  background-color: var(--white-7);
+}
+
+/* black colors */
+
+.black {
+  background-color: var(--black);
+}
+
+.black-1 {
+  background-color: var(--black-1);
+}
+
+.black-2 {
+  background-color: var(--black-2);
+}
+
+.black-3 {
+  background-color: var(--black-3);
+}
+
+.black-4 {
+  background-color: var(--black-4);
+}
+
+.black-5 {
+  background-color: var(--black-5);
+}
+
+.black-6 {
+  background-color: var(--black-6);
+}
+
+.black-7 {
+  background-color: var(--black-7);
+}
+
+/* orange colors */
+
+.orange {
+  background-color: var(--orange);
+}
+
+.orange-1 {
+  background-color: var(--orange-1);
+}
+
+.orange-2 {
+  background-color: var(--orange-2);
+}
+
+.orange-3 {
+  background-color: var(--orange-3);
+}
+
+.orange-4 {
+  background-color: var(--orange-4);
+}
+
+.orange-5 {
+  background-color: var(--orange-5);
+}
+
+.orange-6 {
+  background-color: var(--orange-6);
+}
+
+.orange-7 {
+  background-color: var(--orange-7);
+}
+
+/* text-colors */
+
+/* blue text colors */
+
+.blue-text {
+  color: var(--blue);
+}
+
+.blue-1-text {
+  color: var(--blue-1);
+}
+
+.blue-2-text {
+  color: var(--blue-2);
+}
+
+.blue-3-text {
+  color: var(--blue-3);
+}
+
+.blue-4-text {
+  color: var(--blue-4);
+}
+
+.blue-5-text {
+  color: var(--blue-5);
+}
+
+.blue-6-text {
+  color: var(--blue-6);
+}
+
+.blue-7-text {
+  color: var(--blue-7);
+}
+
+/* green text colors */
+
+.green-text {
+  background-color: var(--green);
+}
+
+.green-1-text {
+  background-color: var(--green-1);
+}
+
+.green-2-text {
+  color: var(--green-2);
+}
+
+.green-3-text {
+  color: var(--green-3);
+}
+
+.green-4-text {
+  color: var(--green-4);
+}
+
+.green-5-text {
+  color: var(--green-5);
+}
+
+.green-6-text {
+  color: var(--green-6);
+}
+
+.green-7-text {
+  color: var(--green-7);
+}
+
+/* red text colors */
+
+
+.red-text {
+  background-color: var(--red);
+}
+
+.red-1-text {
+  background-color: var(--red-1);
+}
+
+.red-2-text {
+  color: var(--red-2);
+}
+
+.red-3-text {
+  color: var(--red-3);
+}
+
+.red-4-text {
+  color: var(--red-4);
+}
+
+.red-5-text {
+  color: var(--red-5);
+}
+
+.red-6-text {
+  color: var(--red-6);
+}
+
+.red-7-text {
+  color: var(--red-7);
+}
+
+/* pink text colors */
+
+.pink-text {
+  background-color: var(--pink);
+}
+
+.pink-1-text {
+  background-color: var(--pink-1);
+}
+
+.pink-2-text {
+  color: var(--pink-2);
+}
+
+.pink-3-text {
+  color: var(--pink-3);
+}
+
+.pink-4-text {
+  color: var(--pink-4);
+}
+
+.pink-5-text {
+  color: var(--pink-5);
+}
+
+.pink-6-text {
+  color: var(--pink-6);
+}
+
+.pink-7-text {
+  color: var(--pink-7);
+}
+
+/* purple text colors */
+
+.purple-text {
+  background-color: var(--purple);
+}
+
+.purple-1-text {
+  background-color: var(--purple-1);
+}
+
+.purple-2-text {
+  color: var(--purple-2);
+}
+
+.purple-3-text {
+  color: var(--purple-3);
+}
+
+.purple-4-text {
+  color: var(--purple-4);
+}
+
+.purple-5-text {
+  color: var(--purple-5);
+}
+
+.purple-6-text {
+  color: var(--purple-6);
+}
+
+.purple-7-text {
+  color: var(--purple-7);
+}
+
+/* yellow text colors */
+
+.yellow-text {
+  background-color: var(--yellow);
+}
+
+.yellow-1-text {
+  background-color: var(--yellow-1);
+}
+
+.yellow-2-text {
+  color: var(--yellow-2);
+}
+
+.yellow-3-text {
+  color: var(--yellow-3);
+}
+
+.yellow-4-text {
+  color: var(--yellow-4);
+}
+
+.yellow-5-text {
+  color: var(--yellow-5);
+}
+
+.yellow-6-text {
+  color: var(--yellow-6);
+}
+
+.yellow-7-text {
+  color: var(--yellow-7);
+}
+
+/* cyan text colors */
+
+.cyan-text {
+  background-color: var(--cyan);
+}
+
+.cyan-1-text {
+  background-color: var(--cyan-1);
+}
+
+.cyan-2-text {
+  color: var(--cyan-2);
+}
+
+.cyan-3-text {
+  color: var(--cyan-3);
+}
+
+.cyan-4-text {
+  color: var(--cyan-4);
+}
+
+.cyan-5-text {
+  color: var(--cyan-5);
+}
+
+.cyan-6-text {
+  color: var(--cyan-6);
+}
+
+.cyan-7-text {
+  color: var(--cyan-7);
+}
+
+/* white text colors */
+
+.white-text {
+  background-color: var(--white);
+}
+
+.white-1-text {
+  background-color: var(--white-1);
+}
+
+.white-2-text {
+  color: var(--white-2);
+}
+
+.white-3-text {
+  color: var(--white-3);
+}
+
+.white-4-text {
+  color: var(--white-4);
+}
+
+.white-5-text {
+  color: var(--white-5);
+}
+
+.white-6-text {
+  color: var(--white-6);
+}
+
+.white-7-text {
+  color: var(--white-7);
+}
+
+/* black text colors */
+
+.black-text {
+  background-color: var(--black);
+}
+
+.black-1-text {
+  background-color: var(--black-1);
+}
+
+.black-2-text {
+  color: var(--black-2);
+}
+
+.black-3-text {
+  color: var(--black-3);
+}
+
+.black-4-text {
+  color: var(--black-4);
+}
+
+.black-5-text {
+  color: var(--black-5);
+}
+
+.black-6-text {
+  color: var(--black-6);
+}
+
+.black-7-text {
+  color: var(--black-7);
+}
+
+/* orange text colors */
+
+.orange-text {
+  background-color: var(--orange);
+}
+
+.orange-1-text {
+  background-color: var(--orange-1);
+}
+
+.orange-2-text {
+  background-color: var(--orange-2);
+}
+
+.orange-3-text {
+  background-color: var(--orange-3);
+}
+
+.orange-4-text {
+  background-color: var(--orange-4);
+}
+
+.orange-5-text {
+  background-color: var(--orange-5);
+}
+
+.orange-6-text {
+  background-color: var(--orange-6);
+}
+
+.orange-7-text {
+  background-color: var(--orange-7);
 }
